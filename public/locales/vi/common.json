@@ -1,0 +1,26 @@
+{
+  "home-title": "Thiệp Phúc Đáp",
+
+  "h1": "Ein einfaches Beispiel",
+  "name": "Tên",
+  "guests": "Số Người Dự Tiệc",
+  "submit": "GỬI RSVP",
+  "change-locale": "English",
+  "rsvp": "THIỆP PHÚC ĐÁP",
+  "rsvp-message": "Xin vui lòng phúc đáp trước ngày 09/01/2022.",
+  "thank-message": "Xin chân thành cảm ơn.",
+  "required": "",
+  "to-second-page": "Zur zweiten Seite",
+  "error-with-status": "Auf dem Server ist ein Fehler ({{statusCode}}) aufgetreten",
+  "error-without-status": "Auf dem Server ist ein Fehler aufgetreten",
+  "blog": {
+    "optimized": {
+      "question": "Möchtest du einige Superkräfte entfesseln, um für alle Seiten optimierte Übersetzungen zu haben?",
+      "answer": "Dann schaue dir vielleicht <1>diesen Blogbeitrag</1> an."
+    },
+    "ssg": {
+      "question": "Möchtest du SSG (next export) verwenden?",
+      "answer": "Dann schaue dir vielleicht <1>diesen Blogbeitrag</1> an."
+    }
+  }
+}

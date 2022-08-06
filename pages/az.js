@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const images = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-export default function IndexPage() {
+export default function AZPage() {
   const [formStatus, setFormStatus] = useState(false);
 
   const [query, setQuery] = useState({
@@ -31,7 +31,7 @@ export default function IndexPage() {
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
     });
-    fetch("https://getform.io/f/1900800c-a0f2-4659-a87c-8c910f5737f4", {
+    fetch("https://getform.io/f/ec4ee18c-1a2f-4f66-8582-dbdd86f3c8e9", {
       method: "POST",
       body: formData,
     }).then(() => {
@@ -60,7 +60,7 @@ export default function IndexPage() {
               SAVE THE DATE
             </h2>
             <p className="mt-2 text-2xl font-extralight tracking-[0.15em]  text-gray-700">
-              10.22.2022
+              10.15.2022
             </p>
           </div>
           <div className="relative mt-8 rounded-md bg-white shadow-xl">
