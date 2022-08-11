@@ -46,7 +46,7 @@ export default function IndexPage() {
 
   return (
     <>
-      <NextSeo title={t("home-title")} />
+      <NextSeo title={t("home-title")} description="SAVE THE DATE 10.22.2222" />
       <section className="relative bg-primary-500 pt-6">
         <div className="relative mx-auto aspect-video max-w-7xl px-4 sm:px-6 lg:px-8">
           <Image src="/hero.jpg" layout="fill" objectFit="cover" />
